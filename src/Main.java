@@ -5,6 +5,8 @@ import java.util.Collections;
 public class Main {
     public static void main(String[] args){
 
+        //Arrays
+
         Cat[] cats = new Cat[4];
         cats[0] = new Cat("Tomas");
         cats[1] = new Cat("Begemot");
@@ -14,6 +16,8 @@ public class Main {
         // cats[1] = null;
 
         System.out.println(Arrays.toString(cats));
+
+        // ArrayList
 
         ArrayList<Cat> catsList = new ArrayList();
         for (Cat cat : cats){
@@ -37,6 +41,9 @@ public class Main {
         System.out.println(catsList.toString());
 
         System.out.println(catsList.size());
+
+        //LinkedList
+
 
     }
 }
